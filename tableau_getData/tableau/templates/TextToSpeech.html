@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+    <title>Text to Speech</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <form action="">
+        <input type="search" id="textToSpeak" name="textToSpeak" placeholder="Copy paste the text from below list to speak" size=60>
+        <input type="button" id="clickToSpeak" value="Click to Speak">
+    </form>
+    <ol>
+    </ol>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $.getJSON("textToSpeechJSON.json", function(data) {
+                var items = data,
+                    result;
+                var uniqueItems = items;
+
+                for (i = 0; i < uniqueItems.length; i++) {
+                    result = uniqueItems[i][1]['formattedValue'];
+                    $("<li/>", {
+                        "class": "list-item",
+                        html: result
+                    }).appendTo("ol");
+                }
+            });
+
+            $('#clickToSpeak').on('click', function() {
+                $.getJSON("textToSpeechJSON.json", function(data) {
+                    var items = data,
+                        result;
+                    var uniqueItems = items;
+
+                    for (i = 0; i < uniqueItems.length; i++) {
+                        if (document.getElementById('textToSpeak').value == uniqueItems[i][1]['formattedValue']) {
+                            result = uniqueItems[i][1]['formattedValue'] + ' from ' + uniqueItems[i][0]['formattedValue'] + ' has a value of ' + uniqueItems[i][2]['formattedValue'];
+                            $("<li/>", {
+                                "class": "list-item",
+                                html: result
+                            }).appendTo("ol");
+
+                            var u = new SpeechSynthesisUtterance();
+                            u.text = result;
+                            u.lang = 'en-US';
+                            u.rate = 0.9;
+                            u.onend = function(event) {
+                                console.log('Finished in ' + event.elapsedTime + ' seconds.');
+                            }
+                            speechSynthesis.speak(u);
+                            break;
+                        }
+
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

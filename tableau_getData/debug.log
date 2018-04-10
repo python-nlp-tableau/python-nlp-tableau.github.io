@@ -1,0 +1,394 @@
+(0.172) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.024) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Not Found: /favicon.ico
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+(0.064) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Not Found: /favicon.ico
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+(0.097) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[object HTMLInputElement]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.761850000003","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054620000001","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.2782839197857","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.116193919784","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.761850000003","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054620000001","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.2782839197857","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.116193919784","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.761850000003","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054620000001","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.2782839197857","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.116193919784","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.761850000003","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054620000001","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.2782839197857","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.116193919784","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.761850000003","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054620000001","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.2782839197857","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.116193919784","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.761850000003","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054620000001","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.2782839197857","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.116193919784","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.761850000003","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054620000001","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.2782839197857","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.116193919784","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /dashboard.html
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /tableau/templates/textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /textToSpeechJSON.json
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/cookie2/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /favicon.ico
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Not Found: /favicon.ico
+Not Found: /[[{"value":"Net Sales","formattedValue":"Net Sales"},{"value":"10812.76184999999","formattedValue":"10,812.76"}],[{"value":"Gross Profit","formattedValue":"Gross Profit"},{"value":"4649.054619999997","formattedValue":"4,649.05"}],[{"value":"Operating Income","formattedValue":"Op Income"},{"value":"3147.278283919784","formattedValue":"3,147.28"}],[{"value":"Profit","formattedValue":"Net Profit"},{"value":"2762.1161939197846","formattedValue":"2,762.12"}]]
+Not Found: /textToSpeechJSON.json
+Not Found: /textToSpeechJSON.json
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico

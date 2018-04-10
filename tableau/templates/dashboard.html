@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tableau Public</title>
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <script type="text/javascript">
+        var viz, sheet, table;
+        var speech;
+
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "https://public.tableau.com/views/IncomeStatement_11/Financemetrics?:embed=y&:display_count=yes&publish=yes",
+                options = {
+                    hideTabs: true,
+                    hideToolbar: true,
+                    onFirstInteractive: function() {
+                        document.getElementsByClassName('getData').disabled = true;
+                        document.getElementById('getDatataxesBars').disabled = false;
+                        document.getElementById('getDatataxes').disabled = false;
+                    }
+                };
+            viz = new tableau.Viz(containerDiv, url, options);
+        }
+
+        function getUnderlyingData(arg) {
+            arg = arg.charAt(0).toUpperCase() + arg.slice(1);
+            sheet = viz.getWorkbook().getActiveSheet().getWorksheets().get(arg);
+            if (typeof sheet == 'undefined') {
+                result = arg + ' value is not found';
+                speech(result);
+            } else {
+                options = {
+                    maxRows: 0, // Max rows to return. Use 0 to return all rows
+                    ignoreAliases: false,
+                    ignoreSelection: true,
+                    includeAllColumns: false
+                };
+                sheet.getSummaryDataAsync(options).then(function(t) {
+                    table = t;
+                    var tgt = document.getElementById("dataTarget");
+                    tgt.innerHTML = "<h4>" + arg + " Data:</h4><p>" + JSON.stringify(table.getData()) + "</p>";
+                    //$.getJSON("textToSpeechJSON.json", function(data) {
+                    var items = table.getData(),
+                        result;
+                    var uniqueItems = items;
+                    for (i = 0; i < uniqueItems.length; i++) {
+                        result = uniqueItems[i][0]['formattedValue'] + ' value is ' + uniqueItems[i][1]['formattedValue'];
+                        $("<li/>", {
+                            "class": "list-item",
+                            html: result
+                        }).appendTo("ol");
+                        speech(result);
+                        //break;
+                    }
+                    //});
+                });
+            }
+        }
+
+        function speech(result) {
+            var u = new SpeechSynthesisUtterance();
+            u.text = result;
+            u.lang = 'en-US';
+            u.rate = 0.8;
+            u.onend = function(event) {
+                console.log('Finished in ' + event.elapsedTime + ' seconds.');
+            }
+            speechSynthesis.speak(u);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="page-header">
+        <h1>Tableau Public</h1>
+        <p>Income Statement</p>
+        <button id="getDataHighlights" onclick="getUnderlyingData('Highlights')" class="btn getData" disabled>Highlights</button>
+        <button id="getDataFavorable" onclick="getUnderlyingData('Favorable')" class="btn getData" disabled>Favorable</button>
+        <button id="getDataUnFavorable" onclick="getUnderlyingData('Unfavorable')" class="btn getData" disabled>UnFavorable</button>
+        <button id="getDatataxesBars" onclick="getUnderlyingData('Taxes Bars')" class="btn" disabled>Taxes Bars</button>
+        <button id="getDatataxes" onclick="getUnderlyingData('Taxes')" class="btn" disabled>Taxes</button>
+    </div>
+    <div id="vizContainer" style="width:600px; height:600px;"></div><br /><br /><br />
+    <div id="dataTarget" style="margin-top:150px;"></div>
+    <ol style="margin-top:100px;"></ol>
+</body>
+<script>
+    window.onload = initViz();
+    window.onload = function() {
+        if (annyang) {
+            alert('inside');
+            var logStatus = function() {
+                console.log('annyang.isListening()', annyang.isListening());
+            };
+            var commands = {
+                'search for *yourWish': function(yourWish) {
+                    setTimeout(logStatus, 500);
+                    alert(yourWish);
+                    getUnderlyingData(yourWish);
+                }
+            }
+            annyang.addCommands(commands);
+            annyang.debug();
+            annyang.start();
+        } else {
+            alert('Error : AnnYang not loaded');
+        }
+    }
+</script>
+
+</html>
